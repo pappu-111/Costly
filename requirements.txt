@@ -55,7 +55,7 @@ pyrsistent==0.19.3
 python-dateutil==2.9.0.post0
 pytz==2024.2
 pytz-deprecation-shim==0.1.0.post0
-pywin32==308
+pywin32==308  # REMOVE this line on Render deployment
 requests==2.31.0
 requests-oauthlib==2.0.0
 rich==13.8.1
@@ -70,8 +70,8 @@ tenacity==8.2.3
 tensorboard==2.11.2
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.3.1
-tensorflow-cpu==2.3.0
+tensorflow==2.3.1  # Use this or latest CPU-compatible version if necessary
+tensorflow-cpu==2.3.0  # Optional, if you prefer CPU version for compatibility
 tensorflow-estimator==2.3.0
 tensorflow-intel==2.11.0
 tensorflow-io-gcs-filesystem==0.31.0
