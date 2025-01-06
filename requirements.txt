@@ -55,7 +55,6 @@ pyrsistent==0.19.3
 python-dateutil==2.9.0.post0
 pytz==2024.2
 pytz-deprecation-shim==0.1.0.post0
-pywin32==308  # REMOVE this line on Render deployment
 requests==2.31.0
 requests-oauthlib==2.0.0
 rich==13.8.1
