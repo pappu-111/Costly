@@ -1,4 +1,11 @@
 // script.js
+
+// header
+let header = $("header");
+$(window).on("scroll", () => {
+  header.toggleClass("shadow", $(window).scrollTop() > 0);
+});
+
 const products = [
   {
     id: 1,
